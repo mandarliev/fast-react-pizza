@@ -1,5 +1,4 @@
-import { Form, redirect, useActionData, useNavigation } from 'react-router-dom';
-import { createOrder } from '../../services/apiRestaurant';
+import { Form, useActionData, useNavigation } from 'react-router-dom';
 
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
